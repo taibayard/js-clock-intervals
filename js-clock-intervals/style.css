@@ -1,0 +1,62 @@
+#clock {
+}
+
+#clock img {
+}
+
+#hour {
+	transform: rotate(0deg);
+}
+
+#minute {
+	transform: rotate(0deg);
+}
+
+#second {
+transform: rotate(0deg);
+}
+.clock-hand{
+    position: absolute;
+    left: 0.5em;
+    top: 1em;
+    transform: rotate(0deg);
+    transition: all 1s linear;
+}
+.currentTime{
+    width: 40em;
+    height: 12em;
+    /*background-color: grey;*/
+    position: relative;
+    left: 2.5em;
+    top: 39em;
+}
+.currentTime a{
+    font-size: 12em;
+    color: grey;
+    position: absolute;
+    left: .85em;
+    top: -53px;
+}
+.time-text{
+	font-size: 8em;
+    color: white;
+    position: relative;
+}
+#time-second{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:black;
+}
+#time-hour{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color:grey;
+}
+#time-minute{
+	color:grey;
+    top: 0;
+    left: 2em;
+
+}
